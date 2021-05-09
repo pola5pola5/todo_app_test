@@ -1,0 +1,494 @@
+2021/04/29 01:30:50 main.go:15: test
+2021/04/29 22:37:38 todos.go:26: table todos has no column named created_at
+2021/04/29 22:38:39 todos.go:26: table todos has no column named created_at
+2021/04/29 22:39:18 todos.go:26: table todos has no column named created_at
+2021/04/29 22:45:08 todos.go:26: table todos has no column named created_at
+2021/04/29 22:51:03 todos.go:26: table todos has no column named created_at
+2021/04/29 23:00:42 todos.go:26: table todos has no column named created_at
+2021/04/29 23:02:05 todos.go:26: table todos has no column named created_at
+2021/04/29 23:02:40 todos.go:26: table todos has no column named created_at
+2021/04/29 23:05:28 todos.go:26: table todos has no column named created_at
+2021/04/30 16:32:27 server.go:3139: http: panic serving 127.0.0.1:59886: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 18 [running]:
+net/http.(*conn).serve.func1(0xc00011a000)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0001165a0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001380e0, 0x44aeaa0, 0x4597af0, 0xc000046aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001380e0, 0xc000132100)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001380e0, 0xc000132100)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001380e0, 0xc000132100)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001380e0, 0xc000132100)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a000, 0x45a43a0, 0xc00011e0c0)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:28 server.go:3139: http: panic serving 127.0.0.1:59887: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 19 [running]:
+net/http.(*conn).serve.func1(0xc00011a0a0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc00006b9e0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc1c0, 0x44aeaa0, 0x4597af0, 0xc000181aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc1c0, 0xc000132000)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc1c0, 0xc000132000)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc1c0, 0xc000132000)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc1c0, 0xc000132000)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a0a0, 0x45a43a0, 0xc00011e000)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:28 server.go:3139: http: panic serving 127.0.0.1:59890: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc00007d360)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000116960)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001382a0, 0x44aeaa0, 0x4597af0, 0xc00004baa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001382a0, 0xc0001c4100)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001382a0, 0xc0001c4100)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001382a0, 0xc0001c4100)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001382a0, 0xc0001c4100)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00007d360, 0x45a43a0, 0xc00005e500)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:28 server.go:3139: http: panic serving 127.0.0.1:59891: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc00021c000)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000218420)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0002380e0, 0x44aeaa0, 0x4597af0, 0xc00022aaa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0002380e0, 0xc000234000)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0002380e0, 0xc000234000)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0002380e0, 0xc000234000)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0002380e0, 0xc000234000)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c000, 0x45a43a0, 0xc000230000)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:33 server.go:3139: http: panic serving 127.0.0.1:59895: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 24 [running]:
+net/http.(*conn).serve.func1(0xc00011a140)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000116ea0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000138460, 0x44aeaa0, 0x4597af0, 0xc000046aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000138460, 0xc000132300)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000138460, 0xc000132300)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000138460, 0xc000132300)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000138460, 0xc000132300)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a140, 0x45a43a0, 0xc00011e4c0)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:33 server.go:3139: http: panic serving 127.0.0.1:59896: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 25 [running]:
+net/http.(*conn).serve.func1(0xc00011a1e0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0002187e0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0002382a0, 0x44aeaa0, 0x4597af0, 0xc00004baa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0002382a0, 0xc000132200)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0002382a0, 0xc000132200)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0002382a0, 0xc000132200)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0002382a0, 0xc000132200)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a1e0, 0x45a43a0, 0xc00011e440)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:33 server.go:3139: http: panic serving 127.0.0.1:59897: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 28 [running]:
+net/http.(*conn).serve.func1(0xc00011a280)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000218bd0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000238460, 0x44aeaa0, 0x4597af0, 0xc000046aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000238460, 0xc000132400)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000238460, 0xc000132400)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000238460, 0xc000132400)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000238460, 0xc000132400)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a280, 0x45a43a0, 0xc00011e6c0)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:35 server.go:3139: http: panic serving 127.0.0.1:59898: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 29 [running]:
+net/http.(*conn).serve.func1(0xc00011a320)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000218f60)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000238620, 0x44aeaa0, 0x4597af0, 0xc000048aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000238620, 0xc000132600)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000238620, 0xc000132600)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000238620, 0xc000132600)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000238620, 0xc000132600)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a320, 0x45a43a0, 0xc00011e7c0)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:35 server.go:3139: http: panic serving 127.0.0.1:59899: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 30 [running]:
+net/http.(*conn).serve.func1(0xc00011a3c0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0002192f0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0002387e0, 0x44aeaa0, 0x4597af0, 0xc000047aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0002387e0, 0xc000132500)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0002387e0, 0xc000132500)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0002387e0, 0xc000132500)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0002387e0, 0xc000132500)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a3c0, 0x45a43a0, 0xc00011e740)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:35 server.go:3139: http: panic serving 127.0.0.1:59900: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 31 [running]:
+net/http.(*conn).serve.func1(0xc00011a460)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc00006ba70)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000138620, 0x44aeaa0, 0x4597af0, 0xc000049aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000138620, 0xc000132700)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000138620, 0xc000132700)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000138620, 0xc000132700)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000138620, 0xc000132700)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a460, 0x45a43a0, 0xc00011e840)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:39 server.go:3139: http: panic serving [::1]:59905: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 50 [running]:
+net/http.(*conn).serve.func1(0xc00011a500)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc00006be90)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc380, 0x44aeaa0, 0x4597af0, 0xc000226aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc380, 0xc000132900)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc380, 0xc000132900)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc380, 0xc000132900)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc380, 0xc000132900)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a500, 0x45a43a0, 0xc00011ea80)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:39 server.go:3139: http: panic serving [::1]:59906: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 51 [running]:
+net/http.(*conn).serve.func1(0xc00011a5a0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000219680)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0002389a0, 0x44aeaa0, 0x4597af0, 0xc000049aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0002389a0, 0xc000132800)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0002389a0, 0xc000132800)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0002389a0, 0xc000132800)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0002389a0, 0xc000132800)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a5a0, 0x45a43a0, 0xc00011ea00)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:39 server.go:3139: http: panic serving [::1]:59907: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 12 [running]:
+net/http.(*conn).serve.func1(0xc00007d400)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0001fe300)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc540, 0x44aeaa0, 0x4597af0, 0xc000226aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc540, 0xc0001c4200)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc540, 0xc0001c4200)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc540, 0xc0001c4200)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc540, 0xc0001c4200)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00007d400, 0x45a43a0, 0xc00005e840)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:39 server.go:3139: http: panic serving [::1]:59908: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 47 [running]:
+net/http.(*conn).serve.func1(0xc00021c0a0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0001fe690)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc620, 0x44aeaa0, 0x4597af0, 0xc000049aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc620, 0xc000234200)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc620, 0xc000234200)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc620, 0xc000234200)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc620, 0xc000234200)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c0a0, 0x45a43a0, 0xc000230800)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:40 server.go:3139: http: panic serving [::1]:59909: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 48 [running]:
+net/http.(*conn).serve.func1(0xc00021c140)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000219c50)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000238b60, 0x44aeaa0, 0x4597af0, 0xc00022aaa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000238b60, 0xc000234300)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000238b60, 0xc000234300)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000238b60, 0xc000234300)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000238b60, 0xc000234300)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c140, 0x45a43a0, 0xc000230880)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:40 server.go:3139: http: panic serving [::1]:59910: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 49 [running]:
+net/http.(*conn).serve.func1(0xc00021c1e0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0001fea20)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc7e0, 0x44aeaa0, 0x4597af0, 0xc00022baa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc7e0, 0xc000234400)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc7e0, 0xc000234400)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc7e0, 0xc000234400)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc7e0, 0xc000234400)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c1e0, 0x45a43a0, 0xc000230900)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:40 server.go:3139: http: panic serving [::1]:59911: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 68 [running]:
+net/http.(*conn).serve.func1(0xc00021c280)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc00027c0c0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000238d20, 0x44aeaa0, 0x4597af0, 0xc00022aaa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000238d20, 0xc000234500)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000238d20, 0xc000234500)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000238d20, 0xc000234500)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000238d20, 0xc000234500)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c280, 0x45a43a0, 0xc000230ac0)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:41 server.go:3139: http: panic serving [::1]:59912: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 52 [running]:
+net/http.(*conn).serve.func1(0xc00011a640)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000117b30)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001387e0, 0x44aeaa0, 0x4597af0, 0xc000228aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001387e0, 0xc000132b00)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001387e0, 0xc000132b00)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001387e0, 0xc000132b00)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001387e0, 0xc000132b00)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a640, 0x45a43a0, 0xc00011eb80)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:43 server.go:3139: http: panic serving [::1]:59913: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 53 [running]:
+net/http.(*conn).serve.func1(0xc00011a6e0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc00027c510)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000238ee0, 0x44aeaa0, 0x4597af0, 0xc000227aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000238ee0, 0xc000132a00)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000238ee0, 0xc000132a00)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000238ee0, 0xc000132a00)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000238ee0, 0xc000132a00)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a6e0, 0x45a43a0, 0xc00011eb00)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:43 server.go:3139: http: panic serving [::1]:59916: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 71 [running]:
+net/http.(*conn).serve.func1(0xc00021c320)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc000117ec0)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001389a0, 0x44aeaa0, 0x4597af0, 0xc00022aaa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001389a0, 0xc000234600)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001389a0, 0xc000234600)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001389a0, 0xc000234600)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001389a0, 0xc000234600)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021c320, 0x45a43a0, 0xc000230c80)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:43 server.go:3139: http: panic serving [::1]:59917: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 58 [running]:
+net/http.(*conn).serve.func1(0xc00011a780)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0002b8330)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc000138b60, 0x44aeaa0, 0x4597af0, 0xc00022aaa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc000138b60, 0xc000132c00)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc000138b60, 0xc000132c00)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc000138b60, 0xc000132c00)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc000138b60, 0xc000132c00)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00011a780, 0x45a43a0, 0xc00011ee80)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
+2021/04/30 16:32:48 server.go:3139: http: panic serving [::1]:59920: open app/views/templates/public_nuvbar.html: no such file or directory
+goroutine 84 [running]:
+net/http.(*conn).serve.func1(0xc00007d4a0)
+	/usr/local/go/src/net/http/server.go:1824 +0x153
+panic(0x44d1b00, 0xc0001fef30)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML(0x45a3bf0, 0xc0001cc8c0, 0x44aeaa0, 0x4597af0, 0xc000049aa8, 0x3, 0x3)
+	/Users/ayana/go/src/todo_app/app/controllers/server.go:19 +0x2ce
+todo_app/app/controllers.top(0x45a3bf0, 0xc0001cc8c0, 0xc0001c4400)
+	/Users/ayana/go/src/todo_app/app/controllers/route_main.go:11 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4547998, 0x45a3bf0, 0xc0001cc8c0, 0xc0001c4400)
+	/usr/local/go/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47bdf20, 0x45a3bf0, 0xc0001cc8c0, 0xc0001c4400)
+	/usr/local/go/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc0001cc000, 0x45a3bf0, 0xc0001cc8c0, 0xc0001c4400)
+	/usr/local/go/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00007d4a0, 0x45a43a0, 0xc00005ed00)
+	/usr/local/go/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3013 +0x39b
